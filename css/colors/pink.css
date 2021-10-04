@@ -1,0 +1,67 @@
+.header-top .icons1,
+.header-top .icons2:hover,
+.activeLink,
+.nav-link span:hover,
+.data h1,
+.icon3,
+.section-title h2 ,
+.section-title p span,
+.servecis-item .icon4,
+.count-item .icon5,
+.icon7,
+.carCard .car-data span,
+.icon8,
+.pricecard1-content h1,
+.testimonials .slider .client-info span,
+.testimonials .title h1,
+.icon6 ,
+.app-mobile-section-data h1,
+.articlspan2,
+.butn4,
+.butn4 i,
+.footerDarkDiv span,
+.contactways,
+.rights span,
+.blogtex1,
+.blogDarkDiv,
+.upDivIcons,
+.blogdataRight:hover a,
+.blogIcon2,
+.driverData h4 ,
+.driverData h4 span,
+.serviceContent h4
+
+
+{
+    color: #e98896!important;
+  
+}
+
+
+
+.btun,
+.btun3,
+.footerinput,
+.butn5
+{
+    border: 1px solid #e98896;
+}
+.testimonials .slider-indicator img{
+    border: 4px solid #e98896; 
+}
+
+.btun,
+.btun2,
+.btun3:focus,
+.line,
+.carCard .car-data button:hover,
+.btun3:hover,
+.butn4:hover,
+.butn5,
+.butn6,
+.hr2,
+.updivTitle
+{
+    background-color: #e98896;
+}
+

@@ -1,0 +1,357 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Josefin+Sans:ital,wght@1,500&family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+/* height: 8000px; */
+background-color: white;
+margin: 0;
+padding: 0;
+}
+
+
+
+.location  {
+    width: 100wh;
+    height: 100vh;
+}
+
+.location iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* //////////////////////////////////////////////// */
+#home-section{
+
+    width: 100wh;
+    height: auto;
+    background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) ,
+    url(../images/slider-img-2.jpg) no-repeat ;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    
+    }
+    .data {
+        text-align: center;
+        float: center;
+        position: relative;
+        overflow: hidden;
+        top: 0px;
+
+    }
+    
+@media screen and (max-width: 1199px) {
+    .data {
+
+        left: 61px;
+    }
+    
+       }
+
+       @media screen and (max-width: 991px){
+        .data {
+            text-align: center;
+            float: center;
+            position: relative;
+            overflow: hidden;
+            top: 0px;
+            left: unset;
+        }
+       }
+
+
+
+    .data h1{
+        font-weight: 700;
+    }
+    .data p{
+        font-size: 1.4rem;
+        color:white;
+    }
+
+   #home-section form
+    {
+        width: 400px;
+        margin: 0 auto;
+        height: 400px;
+    }
+
+    .bookbutn{
+       position: relative;
+       left:85px;
+    }
+
+
+
+.blog-details{
+width: 100%;
+height: auto;
+/* background-color: red; */
+
+}
+.owl-dots{
+    position: relative;
+    bottom: 48px;
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5));
+    padding-top: 10px;
+}
+.blogDarkDiv{
+    width: 100%;
+height: 150px;
+background-color: #000;
+padding: 15px 20px;
+font-size: 17px;
+}
+
+.form-group {
+    width: 100%!important;
+}
+
+.RIGHTdiv{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+
+}
+.updivTitle{
+    width: 100%;
+    height: 100%;
+}
+
+
+.updivTitle h4 {
+    font-size: 17px;
+    padding: 2px 0px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.blogImgRight{
+margin-top: 12px;
+}
+.blogdataRight{
+    margin-top: 18px;
+}
+
+.blogdataRight p{
+    font-size: 15px;
+    padding: 3px;
+}
+.blogdataRight span{
+    font-size: 10px;
+    padding: 0;
+    position: relative;
+    bottom: 20px;
+}
+
+.blogdataRight  a{
+    color: #000;
+    transition: all 0.4s ease-in-out;
+}
+
+.blogIcon2{
+    margin-left: 5px;
+    font-size: 25px;
+    
+
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/*==============================
+    Driver Page Css
+================================*/
+.overlay{
+    /* width: 100%;
+    height: 100%; */
+    position: relative;
+    margin-top: 50px;
+	transition: all 0.4s ease 0s;
+
+}
+.overlay::after{
+
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+
+
+}
+.overlay img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlay .driverData {
+    position: absolute;
+	/* right: -10px; */
+	top: 20px;
+	z-index: 1;
+	opacity: 1;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	visibility: hidden;
+}
+.driverData{
+    width: 100%;
+    height: 100%;
+
+}
+
+.driverData h4 {
+    
+	bottom: -10px;
+	color: #fff;
+	left: 50%;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	text-align: center;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	width: 100%;
+    z-index: 1;
+    display: inline;
+    
+}
+.driverData h4 span{
+    display: block;
+	font-size: 16px;
+    font-weight: 400;
+}
+
+.driverData .driverSocialicons a .icon9 {
+    font-size: 25px;
+    color: white;
+    display: block;
+    position: relative;
+    left: 310px;
+    top: 100px;
+    margin: 5px;
+    transition: all 0.4s ease 0s;
+    visibility: hidden;
+
+
+}
+
+.overlay:hover .driverSocialicons a .icon9.fa-facebook 
+{
+    color: #5D82D1;
+}
+
+.overlay:hover .driverSocialicons a .icon9.fa-twitter {
+
+    color: #40BFF5;
+}
+
+.overlay:hover .driverSocialicons a .icon9.fa-dribbble {
+	color: #F7659C;
+	
+}
+
+.overlay:hover .driverSocialicons a .icon9.fa-pinterest
+ {
+    color: #E13138;
+}
+
+.overlay:hover:after {
+	opacity: 0.8;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.overlay:hover .driverData {
+	opacity: 1;
+    visibility: visible;
+    transition: all 0.4s ease 0s;
+
+}
+
+.overlay:hover .driverData h4 {
+    bottom: 20px;
+	opacity: 1;
+	visibility: visible;
+    transition: all 0.4s ease 0s;
+
+} 
+.overlay:hover .driverSocialicons a .icon9
+{
+    visibility: visible;
+    transition: all 0.4s ease 0s;
+}
+/* /////////////////////////// */
+.ourservices{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.ourservices .service{
+    width: 100%;
+    height: auto;
+
+}
+.serviceContent h4 {
+    font-weight: 700;
+    /* font-size: 42px; */
+}
+
+@media screen and (max-width: 991px){
+
+    .mt5{margin-top:50px ;}
+
+
+   } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
